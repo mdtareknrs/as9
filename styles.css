@@ -8,76 +8,108 @@
 }
 
 body {
+    width: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f5f5f5;
-    height: 100vh;
-    margin: 0;
+    /* height: 100vh; */
+    margin: auto;
+
 }
 
+
+/* header */
+.header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header img{
+    width: 110px;
+
+}
+.header div {
+    font-weight: bold;
+    padding-right: 20px;
+}
 /* Container and Background Image */
 .container {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
-    width: 85%;
+    /* width: 88.5%; */
 }
 
 .background-image {
-    width: 100%;
+    width: 75%;
     height: auto;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
     border-radius: 10px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 /* Content Box */
 .content {
     position: absolute;
+    left:5%;
     background-color: #fff;
     z-index: 1;
-    width: 400px;
+    width: 425px;
+    height: 395px; 
     padding: 35px;
     border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     text-align: left;
-    left: 5%;
+    
+    /* font-weight: bold; */
 }
 
 .content h1 {
     line-height: 1.2;
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight:bolder;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .content p {
+    line-height: 1.2;
     color: #777;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 /* Form Styling */
 .search-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* Individual Form Groups */
 .form-group {
     display: flex;
+    height: 60px;
     flex-direction: column;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .form-group label {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #555;
-    margin-bottom: 4px;
+    font-weight: bold;
+    /* margin-bottom: 4px; */
 }
 
 .form-group input[type="text"],
@@ -85,15 +117,15 @@ body {
     font-size: 1rem;
     border: none;
     outline: none;
-    font-weight: bold;
-    color: #333;
+    /* font-weight: bold; */
+    color: #000000;
     background-color: transparent;
 }
 
 /* Date Group for Check-in and Check-out */
 .date-group {
     display: flex;
-    gap: 10px;
+  gap: 10px;
 }
 
 .date-group .form-group {
@@ -113,7 +145,6 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-weight: bold;
 }
 
 .search-button span {
@@ -122,4 +153,7 @@ body {
 
 .search-button:hover {
     background-color: #b02862;
+}
+#toprated{
+    margin-top: 85px;
 }
