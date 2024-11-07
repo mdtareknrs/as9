@@ -3,34 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacation Rentals</title>
+    <title>Rounded Background Image</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
-    <div class="container">
-        <!-- Search Form Overlay -->
-        <div class="search-form">
-            <h1>Vacation rentals in Bangladesh</h1>
-            <p>Find and book unique accommodations on Airbnb</p>
-           
-            <div class="loc">
-            <label for="location">Location</label>
-            <input type="text" id="location" placeholder="Bangladesh">
-            </div>
 
-            <div class="chkin">
-            <label for="checkin">Check In</label>
-            <input type="date" id="checkin">
-            </div>
-
-            <div class="chkout">
-            <label for="checkout">Check Out</label>
-            <input type="date" id="checkout">
-        </div>
-
-            <button>Search</button>
-        </div>
+<div class="container">
+    <img src="hero_image1.webp" alt="Hero Image" class="background-image">
+    
+    <div class="content">
+        <h1>Vacation rentals in Bangladesh</h1>
+        <p>Find and book unique accommodations on Airbnb</p>
+        
+        <form class="search-form">
+            <label>Location</label>
+            <input type="text" placeholder="Bangladesh">
+            
+            <label>Check In</label>
+            <input type="date">
+            
+            <label>Check Out</label>
+            <input type="date">
+            
+            <button type="submit">Search</button>
+        </form>
     </div>
+</div>
+
 </body>
 </html>
