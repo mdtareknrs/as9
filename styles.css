@@ -42,3 +42,7 @@ line-height: 1.2;
 .content p{
     color: grey;
 }
+.search-form{
+    display: flex;
+    flex-direction: column;
+}
