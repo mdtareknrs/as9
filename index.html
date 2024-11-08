@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="Airbnb Logo">
+        <span>Airbnb your place</span>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section-container">
         <!-- Background Image -->
         <img src="hero_image1.webp" alt="Beautiful room in a vacation rental in Bangladesh" class="background-image">
-        
+
         <!-- Content Section -->
         <div class="content">
             <h1>Vacation rentals in Bangladesh</h1>
@@ -18,26 +25,37 @@
             
             <!-- Search Form -->
             <form class="search-form">
-                <div class="form-group">
-                    <label for="location">LOCATION</label>
+                <div class="form-group" id="loc">
+                    <label for="location">Location</label>
                     <input type="text" id="location" placeholder="Bangladesh">
                 </div>
                 
                 <div class="date-group">
-                    <div class="form-group">
-                        <label for="checkin">CHECK IN</label>
-                        <input type="date" id="checkin" placeholder="Add Date">
+                    <div class="form-group" id="date">
+                        <label for="checkin">Check In</label>
+                        <input type="date" id="checkin">
                     </div>
-                    
+                    <div class="devider"></div>
                     <div class="form-group">
-                        <label for="checkout">CHECK OUT</label>
-                        <input type="date" id="checkout" placeholder="Add Date">
+                        <label for="checkout">Check Out</label>
+                        <input type="date" id="checkout">
                     </div>
                 </div>
                 
-                <button type="submit" class="search-button"><span>&#128269;</span> Search</button>
+                <button type="submit" class="search-button">
+                    <span>&#128269;</span> Search
+                </button>
             </form>
         </div>
-    </div>
+    </section>
+    <!-- top rated vaction start -->
+<div class="top_rated">
+    <h1>Top-rated vacation rentals in Bangladesh</h1>
+    <p>Guests agree:thes stays are highly rated for location, cleaniness, and more.</p>
+    di
+
+
+</div>
+<!-- top rated vacation end -->
 </body>
 </html>
