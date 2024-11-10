@@ -175,8 +175,8 @@ margin-bottom: 5px;}
 /* Container for Cards */
 .top-rated-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px 15px;
     margin-top: 20px;
 }
 
@@ -269,4 +269,13 @@ margin-bottom: 5px;}
 }
 #pa{
     margin: 100px auto;
+}
+#other{
+margin: -100px  auto 0;}
+.shall{
+    padding: 13px 23px;
+    background-color: white;
+    border: #313030 1px solid;
+    border-radius: 8px;
+    margin: 35px 0;
 }
