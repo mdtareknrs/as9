@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vacation Rentals in Bangladesh</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/47427d556f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- this is the header part -->
-    <div class="header">
-        <img src="logo.png" alt="Logo">
-        <div>Airbnb your place</div>
-    </div>
-    <!-- the header part end -->
-
     <div class="container">
         <!-- Background Image -->
         <img src="hero_image1.webp" alt="Beautiful room in a vacation rental in Bangladesh" class="background-image">
-        
+
         <!-- Content Section -->
         <div class="content">
             <h1>Vacation rentals in Bangladesh</h1>
@@ -25,29 +19,323 @@
             
             <!-- Search Form -->
             <form class="search-form">
-                <div class="form-group">
-                    <label for="location">LOCATION</label>
+                <div class="form-group" id="loc">
+                    <label for="location">Location</label>
                     <input type="text" id="location" placeholder="Bangladesh">
                 </div>
                 
                 <div class="date-group">
                     <div class="form-group">
                         <label for="checkin">CHECK IN</label>
-                        <input type="date" id="checkin">
+                        <input type="date" id="checkin" placeholder="Add Date">
                     </div>
-                    
+                    <div class="devider"></div>
                     <div class="form-group">
                         <label for="checkout">CHECK OUT</label>
-                        <input type="date" id="checkout">
+                        <input type="date" id="checkout" placeholder="Add Date">
                     </div>
                 </div>
                 
-                <button type="submit" class="search-button"><span>&#128269;</span> Search</button>
+                <button type="submit" class="search-button">
+                    <span>&#128269;</span> Search
+                </button>
             </form>
+        </div>
+    </section>
+<!-- Top Rated Vacation Section Start -->
+<div class="top-rated">
+    <h1>Top-rated Vacation Rentals in Bangladesh</h1>
+    <div class="navigation">
+        <p>Guests agree: these stays are highly rated for location, cleanliness, and more.</p>
+        <div class="pagination">
+            <span>1 / 3</span>
+            <button class="nav-button prev"><</button>
+            <button class="nav-button next">></button>
         </div>
     </div>
 
-    <!-- Optional Top Rated Section -->
+    <!-- Top Rated Cards Container -->
+    <div class="top-rated-cards">
+        
+        <!-- Card Template -->
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <span class="badge">Guest Favorite</span>
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                Introducing our modern and uniquely stylish premium apartment, where luxury meets comfort. This exclusive space is designed for the best vacation experience, accommodating up to four people. The color palette is a blend of soothing neutrals and warm tones, creating a cozy ambiance that wraps you in comfort. Immerse yourself in the contemporary design for a unique and unforgettable stay. Book now for a lavish retreat with popular amenities, making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Additional Cards (repeated structure for different images) -->
+        <div class="card">
+            <img src="/card2.webp" alt="Modern premium apartment in Dhaka">
+            <span class="badge">Guest Favorite</span>
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                Introducing our modern and uniquely stylish premium apartment, where luxury meets comfort. This exclusive space is designed for the best vacation experience, accommodating up to four people. The color palette is a blend of soothing neutrals and warm tones, creating a cozy ambiance that wraps you in comfort. Immerse yourself in the contemporary design for a unique and unforgettable stay. Book now for a lavish retreat with popular amenities, making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="/card3.webp" alt="Modern premium apartment in Dhaka">
+            <span class="badge">Guest Favorite</span>
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                Introducing our modern and uniquely stylish premium apartment, where luxury meets comfort. This exclusive space is designed for the best vacation experience, accommodating up to four people. The color palette is a blend of soothing neutrals and warm tones, creating a cozy ambiance that wraps you in comfort. Immerse yourself in the contemporary design for a unique and unforgettable stay. Book now for a lavish retreat with popular amenities, making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="/card4.webp" alt="Modern premium apartment in Dhaka">
+            <span class="badge">Guest Favorite</span>
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                Introducing our modern and uniquely stylish premium apartment, where luxury meets comfort. This exclusive space is designed for the best vacation experience, accommodating up to four people. The color palette is a blend of soothing neutrals and warm tones, creating a cozy ambiance that wraps you in comfort. Immerse yourself in the contemporary design for a unique and unforgettable stay. Book now for a lavish retreat with popular amenities, making every moment a delight.
+            </p>
+        </div>
+    </div>
+    <!-- Top Rated Cards Container End -->
+
+</div>
+<!-- Top Rated Vacation Section End -->
+
+<!-- Vacation rentals for every style Section Start -->
+<div class="top-rated">
+    <h1>Vacation rentals for every style
+    </h1>
+    <div class="navigation">
+        <p>Get the amount of space that is right for you</p>
+    </div>
+
+    <!-- Top Rated Cards Container -->
+    <div class="top-rated-cards">
+        
+        <!-- Card Template -->
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+            </div>
+            <p class="description">
+                Convenient locations with everyday essentials.
+            </p>
+        </div>
+        
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+            </div>
+            <p class="description">
+                Convenient locations with everyday essentials.
+            </p>
+        </div>
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+            </div>
+            <p class="description">
+                Convenient locations with everyday essentials.
+            </p>
+        </div>
+        
+       
+    </div>
+    <!-- Top Rated Cards Container End -->
+
+</div>
+<!-- Vacation rentals for every style Section End -->
+
+<!-- popular amenities in bangladesh start -->
+<div class="container" id="pa">
+    <h2>Popular amenities for Bangladesh vacation rentals</h2>
+    <div class="amenities">
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+            <p>Kitchen</p>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-wifi"></i></div>
+            <p>Wifi</p>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-person-swimming"></i></div>
+            <p>Pool</p>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-square-parking"></i></div>
+            <p>Free parking on premises</p>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+            <p>Air conditioning</p>
+        </div>
+    </div>
+</div>
+<!-- popular ambinities end  -->
+
+<!-- other great vacation Section Start -->
+<div class="top-rated" id="other">
+    <h1>Other great vacation rentals in Bangladesh</h1>
     
+
+    <!-- Top Rated Cards Container -->
+    <div class="top-rated-cards">
+        
+        <!-- Card Template -->
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        <div class="card">
+            <img src="/card1.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Additional Cards (repeated structure for different images) -->
+        <div class="card">
+            <img src="/card2.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="/card3.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+                making every moment a delight.
+            </p>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="/card4.webp" alt="Modern premium apartment in Dhaka">
+            <div class="title-rating">
+                <h2>Rental Unit in Dhaka</h2>
+                <span class="rating">★ 5 (20)</span>
+            </div>
+            <p class="description">
+              making every moment a delight.
+            </p>
+        </div>
+    </div>
+    <!-- Top Rated Cards Container End -->
+<button class="shall"><a href="">Show all ></a></button>
+</div>
+<!-- other great vacation Section End -->
+
+
+
+<div class="content-wrapper"> <!-- Changed class name here -->
+    <h2>Destinations to explore</h2>
+    <div class="tabs">
+      <button class="tab active">Other types of stays</button>
+      <button class="tab">Unique stays</button>
+      <button class="tab">Travel tips & inspiration</button>
+    </div>
+
+    <div class="categories">
+      <div class="category">Bed and breakfasts<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with pools<br><span>Bangladesh</span></div>
+      <div class="category">Pet-friendly rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a fireplace<br><span>Bangladesh</span></div>
+      <div class="category">Kid-friendly rentals<br><span>Bangladesh</span></div>
+      <div class="category">Apartment rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a washer and dryer<br><span>Bangladesh</span></div>
+      <div class="category">Fitness-friendly rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with an accessible height<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a hot tub<br><span>Bangladesh</span></div>
+      <div class="category">House rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a home theater<br><span>Bangladesh</span></div>
+      <div class="category">Smoking-friendly rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a fire pit<br><span>Bangladesh</span></div>
+      <div class="category">Monthly Rentals<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with a patio<br><span>Bangladesh</span></div>
+      <div class="category">Rentals with lake access<br><span>Bangladesh</span></div>
+      <div class="category">Show more<br><span></span></div>
+    </div>
+
+    <div class="footer">
+      <a href="#">Airbnb</a> &gt; <a href="#">Bangladesh</a>
+      <div class="footer-links">
+        <a href="#">Privacy</a> &middot;
+        <a href="#">Terms</a> &middot;
+        <a href="#">Site Map</a>
+      </div>
+      <div class="social-icons">
+        <span><i class="fa-brands fa-square-facebook"></i></span>
+        <span><i class="fa-brands fa-square-twitter"></i></span>
+        <span><i class="fa-brands fa-square-instagram"></i></span>
+        
+        
+      </div>
+    </div>
 </body>
 </html>
