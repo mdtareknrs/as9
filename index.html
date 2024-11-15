@@ -8,7 +8,14 @@
     <script src="https://kit.fontawesome.com/47427d556f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+        <!-- Header Section -->
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="Airbnb Logo">
+        <span>Airbnb your place</span>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section-container">
         <!-- Background Image -->
         <img src="hero_image1.webp" alt="Beautiful room in a vacation rental in Bangladesh" class="background-image">
 
@@ -25,14 +32,14 @@
                 </div>
                 
                 <div class="date-group">
-                    <div class="form-group">
-                        <label for="checkin">CHECK IN</label>
-                        <input type="date" id="checkin" placeholder="Add Date">
+                    <div class="form-group" id="date">
+                        <label for="checkin">Check In</label>
+                        <input type="date" id="checkin">
                     </div>
                     <div class="devider"></div>
                     <div class="form-group">
-                        <label for="checkout">CHECK OUT</label>
-                        <input type="date" id="checkout" placeholder="Add Date">
+                        <label for="checkout">Check Out</label>
+                        <input type="date" id="checkout">
                     </div>
                 </div>
                 
@@ -337,5 +344,8 @@
         
       </div>
     </div>
+  </div>
+
+
 </body>
 </html>
